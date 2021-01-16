@@ -35,6 +35,9 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 # customizations
-THEME = 'pelican-blue'
+THEME = 'devon'
 
 SIDEBAR_DIGEST = 'Developer, Linux Admin, Tech Enthusiast'
+MENUITEMS = (
+    ('Blog', SITEURL),
+)
